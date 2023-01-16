@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-const ArticlesList = ({ articles }) => {
+const ArticlesList = ({ articless }) => {
   return (
     <>
-      {articles.map((article) => (
+      {articless.map((article) => (
         <Link
           key={article.name}
           className="article-list-item"
